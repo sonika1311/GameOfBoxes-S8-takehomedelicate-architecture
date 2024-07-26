@@ -1,3 +1,40 @@
-h1 {
-  text-decoration: underline;
+#parent {
+  background-color: #212121;
+  margin: auto;
+  width: 256px;
+  height: 256px;
+  /* Position properties below this line */
+  position: relative;
+  /* Position properties above this line */
+}
+
+#child-1 {
+  width: 2rem;
+  height: 2rem;
+  background-color: #ff8a80;
+  /* Position properties below this line */
+
+  /* Position properties above this line */
+}
+
+#child-2 {
+  width: 2rem;
+  height: 2rem;
+  background-color: #69f0ae;
+  /* Position properties below this line */
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  /* Position properties above this line */
+}
+
+#child-3 {
+  width: 2rem;
+  height: 2rem;
+  background-color: #ffee58;
+  /* Position properties below this line */
+  position: absolute;
+  top: 2 rem;
+  left: 2rem;
+  /* Position properties above this line */
 }
